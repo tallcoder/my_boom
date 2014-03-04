@@ -1,0 +1,11 @@
+/*
+Title:      Tapmates.com Screen Styles
+Author:     contact@tapmates.com
+Copyright:  2009, Tapmates.  All rights resevered.
+*/
+
+/* import stylesheets and hide from IE/Mac \*/
+@import url("reset.css");
+@import url("master.css");
+@import url("bootstrap.css");
+/* end import/hide */

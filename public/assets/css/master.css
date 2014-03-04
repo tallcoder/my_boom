@@ -1,0 +1,164 @@
+/*
+Title:      Tapmates.com Screen Styles
+Author:     contact@tapmates.com
+Copyright:  2009, Tapmates.  All rights resevered.
+*/
+
+/* @group Fonts and Basics */
+
+* {
+	font-family: "Helvetica Neue", helvetica;
+}
+
+/* @end */
+
+/* @group Main Sections */
+body {
+	text-shadow: #070609 0px -1px 1px;
+	background-color: #130015;
+	background-image: url(../img/bg.png);
+	background-repeat: repeat-x;
+}
+
+#header {
+	height: 515px;
+	background-image: url(../img/bg-space.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+#content {
+	height: 465px;
+	background-image: url(../img/bg-planet.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+/* @end */
+
+
+/* @group Header */
+
+#header .in {
+	width: 900px;
+	height: 515px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+#header h1 {
+	width: 329px;
+	height: 59px;
+	margin: 0 auto 30px auto;
+	/*background-image: url(../img/text-screenport.png);*/
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+#header h1 span {
+	display: none;
+}
+
+#header .slogan {
+	width: 608px;
+	height: 43px;
+	margin: 30px auto;
+	background-image: url(../img/text-description.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+#header .slogan p {
+	display: none;
+}
+
+#signup-form {
+	width: 480px;
+	margin: 0 auto;
+}
+
+#signup-form .input {
+	float: left;
+	width: 338px;
+	height: 63px;
+	background-image: url(../img/bg-input.png);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+
+#signup-form .input input {
+	border: none;
+	height: 26px;
+	width: 300px;
+	margin: 18px 10px 10px 20px;
+	padding: 0;
+	background-color: transparent;
+	font-size: 20px;
+	color: #766378;
+}
+
+#signup-form .input input:focus {
+  outline-width:0;
+}
+
+#signup-form .button {
+	float: left;
+	margin-left: 15px;
+	margin-top: 4px;
+	width: 120px;
+	height: 50px;
+}
+
+/* @end */
+
+/* @group Content */
+
+#content .in {
+	position: relative;
+	width: 900px;
+	height: 465px;
+	margin: 0 auto;
+}
+
+#badge-appicon {
+	display: none;
+	position: relative;
+	width: 314px;
+	height: 302px;
+	margin: 0 auto;
+	top: -150px;
+	left: 10px;
+}
+
+#badge-tapmates {
+	position: relative;
+	width: 217px;
+	height: 107px;
+	margin: 0 auto;
+	bottom: -20px;
+}
+
+#badge-tapmates img {
+	border: none;
+}
+
+/* @end */
+
+/* @group Utils */
+
+.button {
+	display: block;
+	position: relative;
+}
+.button:active {
+	top: 1px;
+}
+
+.clearfix {
+	clear: both;
+	line-height: 0px;
+	font-size: 0px;
+	height: 0px;
+}
+
+/* @end */
